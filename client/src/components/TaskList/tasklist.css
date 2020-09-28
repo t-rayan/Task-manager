@@ -1,0 +1,11 @@
+h4 {
+  font-size: 20px;
+}
+
+.task-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  justify-content: start;
+  margin-top: 20px;
+  grid-gap: 20px;
+}

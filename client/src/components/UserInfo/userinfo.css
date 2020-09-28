@@ -1,0 +1,32 @@
+.userinfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nameContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.username {
+  background-color: rgb(242, 242, 242);
+  border-radius: 50px;
+  color: rgb(162, 162, 162);
+  font-size: 14.6px;
+  font-weight: 500;
+  margin-bottom: 0;
+  padding: 4px 18px;
+}
+
+.logoutIcon {
+  cursor: pointer;
+  color: var(--primaryRed);
+}
+
+@media only screen and (max-width: 400px) {
+  .username {
+    display: none;
+  }
+}

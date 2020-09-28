@@ -1,0 +1,38 @@
+.homeContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 100vh;
+}
+
+
+.showcase {
+  padding: 30px;
+  background-color: rgb(247, 247, 247);
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .homeContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .formContainer {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .showcase {
+    display: none !important;
+  }
+
+  .showcase-img {
+    display: none;
+  }
+}

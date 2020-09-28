@@ -1,0 +1,96 @@
+.taskContainer {
+  display: grid;
+  grid-template-columns: 10% 65% 20%;
+  grid-gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+  border: 1px solid rgb(242, 242, 242);
+  padding: 19px 0 19px 15px;
+  border-radius: 5px;
+}
+
+.date {
+  font-size: 13.8px;
+  color: #ccc;
+  margin-top: 2px;
+  margin-bottom: 0 !important;
+}
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  align-items: center;
+  color: var(--fontColor);
+  display: flex;
+  font-size: 15px;
+  margin-bottom: 0;
+  margin: 3px 0;
+  font-weight: 400;
+}
+
+.checkIcon {
+  margin-right: 8px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.checkIcon:hover {
+  color: rgb(53, 53, 53);
+}
+
+.completed {
+  color: var(--primaryGreen);
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.trashIcon,
+.editIcon {
+  color: #ccc;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.trashIcon:hover {
+  color: var(--primaryRed);
+}
+
+.editIcon:hover {
+  color: var(--primaryYellow);
+}
+
+.completedBadge,
+.pendingBadge {
+  margin-bottom: 2px !important;
+}
+
+.completedBadge {
+  background-color: var(--primaryGreen);
+}
+
+.pendingBadge {
+  background-color: var(--primaryYellow);
+  color: var(--headingColor);
+}
+
+@media only screen and (max-width: 500px) {
+  .taskContainer {
+    margin: 2px 0;
+    padding: 15px 0 15px 15px;
+  }
+
+  .title {
+    font-size: 14px;
+  }
+
+  .completedBadge,
+  .pendingBadge {
+    font-size: 11px;
+  }
+
+
+}

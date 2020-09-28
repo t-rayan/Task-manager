@@ -1,0 +1,15 @@
+.question {
+  color: var(--headingColor);
+}
+
+.register-link {
+  color: var(--primaryColor);
+  cursor: pointer;
+  opacity: .7;
+}
+
+.register-link:hover {
+  color: var(--primaryColor);
+  opacity: 1;
+  transition: all .3s ease-out;
+}

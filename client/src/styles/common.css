@@ -1,0 +1,63 @@
+img {
+  width: 100%;
+}
+
+.authForm {
+  width: 370px;
+}
+
+.authHeading {
+  font-size: 1.5rem;
+  color: var(--headingColor);
+}
+
+.authBtn {
+  color: rgb(255, 255, 255);
+  background-color: var(--primaryColor);
+  border: none;
+  font-size: 1.02rem;
+  width: 100%;
+  padding: .68rem 1rem;
+  opacity: .9;
+  transition: all .3s ease-out;
+
+}
+
+.authBtn:hover {
+  background-color: var(--primaryColor);
+  opacity: 1;
+  padding: .8rem;
+  transition: all .3s ease-out;
+}
+
+.formControl {
+  padding: 1.3rem 1rem;
+  border: 1px solid rgb(232, 232, 232);
+  transition: all 0.2s ease-in-out;
+
+}
+
+.formControl:hover {
+  border-color: none;
+  border: 1px solid var(--primaryColor) !important;
+  padding: 1.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+label {
+  color: rgb(142, 142, 142);
+  font-size: 15px;
+}
+
+::placeholder {
+  color: rgb(179, 179, 179) !important;
+  font-size: 14px;
+}
+
+/* alerts */
+.alertType {
+  width: 100%;
+  display: block;
+  background-color: var(--primaryRed) !important;
+  transition: all 0.4s ease-in;
+}

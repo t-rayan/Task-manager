@@ -1,0 +1,42 @@
+.wrapper {
+  display: grid;
+  grid-template-rows: auto auto 70vh;
+  grid-gap: 50px;
+}
+
+
+.one {
+  background-color: #fff;
+  border-bottom: 1px solid rgb(238, 238, 238);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  overflow: hidden;
+}
+
+.two {
+  margin-top: 1rem;
+  background-color: #ffffff;
+  position: fixed;
+  width: 100%;
+  top: 7%;
+  padding: 25px 0;
+  z-index: 1;
+}
+
+.three {
+  padding: 30px 0;
+  position: fixed;
+  width: 100%;
+  margin-top: 7rem;
+  top: 0;
+  height: 88vh !important;
+  overflow: auto;
+}
+
+.alert-success {
+  position: absolute;
+  bottom: 5%;
+  z-index: 1;
+  width: 300px;
+}
